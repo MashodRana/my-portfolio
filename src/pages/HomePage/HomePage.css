@@ -1,0 +1,28 @@
+.intro-text{
+    /* background: url(../../images/graph.png); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* min-height: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: #ff7363; */
+}
+.custom-btn:hover{
+    background-color: #ff7363;
+    color: white;
+    transition: 0.5s;
+}
+.border-color{
+    border: 1px solid #ff7363;
+}
+
+.text-color-1{
+    color: #a0463c;
+}
+.bg-color-1{
+    background-color: #ff7363;
+}
+
+.project-tag span{
+    background-color: rgba(255,115,99, 0.2);
+    color: #ff7363;
+}
