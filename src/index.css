@@ -15,3 +15,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.pc{
+  color: #614BC3;
+}
+
+.pbgc{
+  background-color: #614BC3;
+}
+
+.sc{
+  color: #33BBC5;
+}
+.sbgc{
+  background-color: #33BBC5;
+}
