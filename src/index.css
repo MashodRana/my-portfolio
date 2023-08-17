@@ -30,3 +30,12 @@ code {
 .sbgc{
   background-color: #33BBC5;
 }
+
+.gray-text{
+  color: #767676;
+}
+
+.hero-section{
+  background-image: url('assets/heroBackground.png');
+  background-repeat:no-repeat ;
+}
