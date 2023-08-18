@@ -134,6 +134,14 @@ const Home = () => {
             <img className="right-24 bottom-14 absolute" src={gitIcon} alt="" />
           </div>
         </section>
+
+        {/* Services */}
+        <section className="w-full py-20">
+        <div className="w-full flex flex-col justify-center items-center gap-4">
+        <h1 className="service-header text-4xl font-bold text-center w-[280px]">My Services</h1>
+        <p className="text-sm w-1/2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+        </div>
+        </section>
       </div>
       <div className="w-[110px]">nav</div>
     </div>
