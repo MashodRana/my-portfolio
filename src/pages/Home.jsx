@@ -7,6 +7,8 @@ import { SiGmail } from "react-icons/si";
 import skillIcon from "../assets/icons/skillIcon.svg";
 import rightArrowIcon from "../assets/icons/rightArrowIcon.svg";
 import downloadIcon from "../assets/icons/downloadIcon.svg";
+import dockerIcon from "../assets/icons/dockerIcon.svg";
+import gitIcon from "../assets/icons/gitIcon.svg";
 import heroImg from "../assets/heroImage.png"
 
 const Home = () => {
@@ -101,9 +103,9 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div className="w-[970px]">
+      <div className="w-[970px] pt-20">
         <section className="hero-section w-full flex ">
-          <div className="w-1/2 flex flex-col gap-6 ">
+          <div className="w-1/2 flex flex-col gap-6">
             <h1 className="text-2xl pt-24 text-4xl font-bold">
               I’m Mashod Rana
               <br />
@@ -121,10 +123,15 @@ const Home = () => {
               </button>
             </div>
           </div>
-          <div className="w-1/2 flex justify-center items-center">
-            <div className="px-12 py-7 bg-white rounded-lg">
-              <img className="w-[150px] h-[150px] rounded-full" src={heroImg} alt="" />
+          <div className="  relative w-1/2 flex justify-center items-center">
+            <div className="px-12 py-7 bg-[#FFF] rounded-lg z-0">
+              <img className="w-[150px] h-[150px] rounded-full z-0" src={heroImg} alt="" />
             </div>
+            <span className="absolute px-6 py-4 rounded-2xl top-0 bg-white text-[#5D87A8] text-sm tag-shadow">Frontend</span>
+            <span className="absolute px-6 py-4 rounded-2xl top-8 right-10 bg-white text-[#5D87A8] text-sm z-10 tag-shadow">Backend</span>
+            <span className="absolute px-6 py-4 rounded-2xl bottom-32 left-0 bg-white text-[#5D87A8] text-sm z-10 tag-shadow">API Integration</span>
+            <img className="left-12 top-12 absolute" src={dockerIcon} alt="" />
+            <img className="right-24 bottom-14 absolute" src={gitIcon} alt="" />
           </div>
         </section>
       </div>

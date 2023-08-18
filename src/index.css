@@ -39,3 +39,7 @@ code {
   background-image: url('assets/heroBackground.png');
   background-repeat:no-repeat ;
 }
+
+.tag-shadow{
+  box-shadow: 0px 40px 30px 0px rgba(25, 25, 46, 0.04);
+}
