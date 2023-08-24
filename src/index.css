@@ -39,3 +39,8 @@ code {
   background-image: url('assets/heroBackground.png');
   background-repeat:no-repeat ;
 }
+
+.heading-background{
+  background-image: url('assets/headingBackgound.png');
+  background-repeat: no-repeat;
+}

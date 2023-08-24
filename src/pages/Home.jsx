@@ -8,6 +8,7 @@ import skillIcon from "../assets/icons/skillIcon.svg";
 import rightArrowIcon from "../assets/icons/rightArrowIcon.svg";
 import downloadIcon from "../assets/icons/downloadIcon.svg";
 import heroImg from "../assets/heroImage.png"
+import MyServices from "../components/MyServices";
 
 const Home = () => {
   return (
@@ -127,6 +128,7 @@ const Home = () => {
             </div>
           </div>
         </section>
+        <MyServices/>
       </div>
       <div className="w-[110px]">nav</div>
     </div>
