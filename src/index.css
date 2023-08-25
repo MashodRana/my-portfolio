@@ -44,7 +44,7 @@ code {
   box-shadow: 0px 40px 30px 0px rgba(25, 25, 46, 0.04);
 }
 
-.service-header{
-  background-image: url('assets/headerBg.png');
+.heading-background{
+  background-image: url('assets/headingBackgound.png');
   background-repeat: no-repeat;
 }
