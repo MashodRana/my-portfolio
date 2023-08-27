@@ -1,0 +1,5 @@
+/* width */
+#left-side-section::-webkit-scrollbar {
+    width: 2px;
+  }
+  

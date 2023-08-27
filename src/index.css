@@ -48,3 +48,29 @@ code {
   background-image: url('assets/headingBackgound.png');
   background-repeat: no-repeat;
 }
+
+
+/* .scroll-container,
+.scroll-area {
+  height: 100vh;
+}
+
+.scroll-container {
+  overflow-y: auto;
+  -webkit-scroll-snap-type: y mandatory;
+      -ms-scroll-snap-type: y mandatory;
+          scroll-snap-type: y mandatory;
+}
+
+.scroll-area {
+  scroll-snap-align: start;
+}
+
+.scroll-container,
+.scroll-area {
+  margin: 0 auto;
+}
+#scroll-container::-webkit-scrollbar {
+  width: 2px;
+} */
+
