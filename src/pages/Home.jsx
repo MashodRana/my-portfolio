@@ -1,5 +1,4 @@
 import React from "react";
-import ReactSnapScroll from "react-snap-scroll";
 
 import MyServices from "../components/MyServices";
 import RightMenu from "../components/rightMenu/RightMenu";
@@ -8,6 +7,7 @@ import HeroSection from "../components/heroSection/HeroSection";
 import Price from "../components/price/Price";
 import { Skills } from "../components/Skills";
 import Projects from "../components/porjects/Projects";
+import WorkHistory from "../components/workHistory/WorkHistory";
 
 const Home = () => {
   return (
@@ -17,6 +17,7 @@ const Home = () => {
         <HeroSection />
         <MyServices />
         <Projects/>
+        <WorkHistory/>
       </main>
 
       <RightMenu />

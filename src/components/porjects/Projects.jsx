@@ -17,6 +17,9 @@ const Projects = () => {
       </div>
       <div className="mt-10 grid grid-cols-3 gap-4">
         <ProjectCard/>
+        <ProjectCard/>
+        <ProjectCard/>
+        <ProjectCard/>
         
       </div>
     </section>
